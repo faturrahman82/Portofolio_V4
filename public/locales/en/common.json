@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "resume": "Resume",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "switch_language": "Switch language",
+    "switch_theme": "Switch theme",
+    "main_nav": "Main navigation",
+    "mobile_nav": "Mobile navigation"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "MAULVI",
+    "tagline": "I build immersive digital experiences — crafting elegant code that lives at the intersection of performance and design.",
+    "tagline_highlight": "Full-Stack Developer & UI Engineer",
+    "typewriter": [
+      "Full-Stack Developer",
+      "UI/UX Engineer",
+      "Open Source Contributor"
+    ],
+    "cta_projects": "View Projects",
+    "cta_github": "GitHub",
+    "cta_resume": "Download Resume",
+    "scroll_hint": "Scroll to explore",
+    "available": "Available for work",
+    "location": "Jakarta, Indonesia"
+  },
+  "about": {
+    "section_label": "About Me",
+    "title": "Passionate about crafting",
+    "title_highlight": "remarkable experiences",
+    "bio_paragraph_1": "I am a developer who loves building applications by writing elegant code and leveraging the power of modern technology. Rather than focusing on pixel-perfect design, I am deeply fascinated by the logic, architecture, and the intersection between code and artificial intelligence.",
+    "bio_paragraph_2": "I embrace the era of AI-driven development. I frequently work with AI agents that assist me in constructing complex systems—a workflow often referred to as 'vibe coding'. This allows me to focus on high-level problem solving, rapid prototyping, and delivering robust backend or full-stack integrations.",
+    "bio_paragraph_3": "When I'm not pushing code, you will find me experimenting with new AI tools, exploring large language models, or contributing to open-source projects that push the boundaries of what automated coding can achieve.",
+    "quick_facts_title": "Quick Facts",
+    "quick_facts": {
+      "location": "Malang, Indonesia",
+      "experience": "3+ Years Experience",
+      "projects": "10+ Projects Built",
+      "coffee": "∞ Cups of Coffee"
+    },
+    "skills_label": "Core Skills",
+    "timeline_label": "Experience Timeline",
+    "education_label": "Education",
+    "fun_facts_label": "Interesting Facts",
+    "fun_facts": [
+      "I once fixed a production issue at 3 a.m. while half asleep — and successfully resolved it.",
+      "I create side projects as a means of creativity, not just for my portfolio.",
+      "Dark mode isn't just a preference — it's a lifestyle."
+    ],
+    "timeline": [
+      {
+        "year": "2025",
+        "role": "Junior Developer",
+        "company": "Freelance",
+        "description": "Creating an Islamic boarding school application."
+      },
+      {
+        "year": "2024",
+        "role": "Junior Developer",
+        "company": "UT School DAD (Internship)",
+        "description": "Developed a monitoring application for vehicle parts."
+      }
+    ]
+  },
+  "skills": {
+    "section_label": "Tech Stack",
+    "title": "Technologies I",
+    "title_highlight": "work with",
+    "subtitle": "A curated set of tools I use to build fast, scalable, and beautiful products.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools & DevOps",
+      "mobile": "Mobile",
+      "database": "Database",
+      "cloud": "Cloud"
+    }
+  },
+  "projects": {
+    "section_label": "Projects",
+    "title": "Things I've",
+    "title_highlight": "Built",
+    "subtitle": "A selection of projects that showcase my range — from production SaaS apps to creative experiments.",
+    "view_all": "View All Projects",
+    "view_project": "View Project",
+    "view_code": "View Code",
+    "live_demo": "Live Demo",
+    "source_code": "Source Code",
+    "filter_all": "All",
+    "filter_label": "Filter by",
+    "no_results": "No projects found for the selected filter.",
+    "loading": "Loading projects...",
+    "error": "Failed to load projects. Please try again.",
+    "pinned_label": "Pinned",
+    "featured_label": "Featured",
+    "card": {
+      "stars": "Stars",
+      "forks": "Forks",
+      "language": "Language",
+      "updated": "Updated"
+    },
+    "page": {
+      "title": "All Projects",
+      "subtitle": "Every project I've built, open-sourced, or shipped — filterable by language and topic.",
+      "search_placeholder": "Search projects...",
+      "sort_by": "Sort by",
+      "sort_stars": "Most Stars",
+      "sort_updated": "Recently Updated",
+      "sort_name": "Name (A–Z)"
+    }
+  },
+  "github": {
+    "section_label": "GitHub Activity",
+    "title": "Code, every",
+    "title_highlight": "single day",
+    "subtitle": "My open-source footprint — repositories, contributions, and languages.",
+    "repos": "Repositories",
+    "stars": "Total Stars",
+    "followers": "Followers",
+    "following": "Following",
+    "contributions": "Contributions",
+    "top_languages": "Top Languages",
+    "view_profile": "View GitHub Profile",
+    "calendar_title": "Contribution Calendar",
+    "loading": "Fetching GitHub data...",
+    "error": "Could not load GitHub stats.",
+    "retry": "Retry"
+  },
+  "contact": {
+    "section_label": "Contact",
+    "title": "Let's work",
+    "title_highlight": "together",
+    "subtitle": "Have a project in mind, or just want to say hi? My inbox is always open.",
+    "form": {
+      "title": "Send a Message",
+      "name_label": "Full Name",
+      "name_placeholder": "John Doe",
+      "email_label": "Email Address",
+      "email_placeholder": "john@example.com",
+      "subject_label": "Subject",
+      "subject_placeholder": "Project Inquiry / Collaboration / Just saying hi",
+      "message_label": "Message",
+      "message_placeholder": "Tell me about your project, idea, or just say hello...",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success_title": "Message Sent!",
+      "success_message": "Thanks for reaching out. I'll get back to you within 24-48 hours.",
+      "error_title": "Something went wrong",
+      "error_message": "Your message couldn't be sent. Please try emailing me directly.",
+      "required": "This field is required.",
+      "invalid_email": "Please enter a valid email address.",
+      "min_length": "Message must be at least 10 characters.",
+      "max_length": "Message must be under 1000 characters."
+    },
+    "socials_title": "Find me online",
+    "email_cta": "Or reach me directly at",
+    "availability": "Open to opportunities",
+    "availability_detail": "Currently available for freelance projects and full-time roles."
+  },
+  "footer": {
+    "tagline": "Built with passion, powered by caffeine.",
+    "made_with": "Made with",
+    "and": "and",
+    "next_js": "Next.js",
+    "rights": "All rights reserved.",
+    "back_to_top": "Back to top",
+    "nav_label": "Footer navigation",
+    "social_label": "Social media links"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred.",
+    "retry": "Try again",
+    "close": "Close",
+    "open": "Open",
+    "toggle": "Toggle",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "share": "Share",
+    "download": "Download",
+    "read_more": "Read more",
+    "see_less": "See less",
+    "view_all": "View all",
+    "show_more": "Show more",
+    "back": "Go back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "language": "Language",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System",
+    "skip_nav": "Skip to main content"
+  },
+  "meta": {
+    "default_title": "Portfolio — Full-Stack Developer",
+    "default_description": "Personal portfolio of a full-stack developer specializing in Next.js, TypeScript, and immersive web experiences.",
+    "og_title": "Portfolio — Full-Stack Developer",
+    "og_description": "Explore my projects, skills, and experience in full-stack web development.",
+    "keywords": "portfolio, full-stack developer, next.js, typescript, react, web development, ui engineer",
+    "author": "Maulvi",
+    "pages": {
+      "home": {
+        "title": "Home — Portfolio",
+        "description": "Welcome to my portfolio. I build fast, beautiful, and accessible web experiences."
+      },
+      "projects": {
+        "title": "Projects — Portfolio",
+        "description": "Explore all my open-source projects, side projects, and professional work."
+      },
+      "about": {
+        "title": "About — Portfolio",
+        "description": "Learn about my background, skills, experience, and what drives me as a developer."
+      },
+      "contact": {
+        "title": "Contact — Portfolio",
+        "description": "Get in touch with me for collaborations, job opportunities, or just to say hello."
+      }
+    }
+  },
+  "aria": {
+    "main_nav": "Main navigation",
+    "mobile_nav": "Mobile navigation",
+    "hero_canvas": "3D animated background scene",
+    "project_card": "Project card for",
+    "github_stat": "GitHub statistic",
+    "skill_badge": "Skill badge",
+    "language_switcher": "Language switcher",
+    "theme_toggle": "Toggle color theme",
+    "scroll_to_top": "Scroll to top of page",
+    "social_link": "Visit my profile on",
+    "contribution_calendar": "GitHub contribution calendar",
+    "close_modal": "Close modal",
+    "next_slide": "Next slide",
+    "prev_slide": "Previous slide"
+  }
+}

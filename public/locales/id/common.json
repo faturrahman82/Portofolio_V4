@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "projects": "Proyek",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "resume": "Resume",
+    "open_menu": "Buka menu",
+    "close_menu": "Tutup menu",
+    "switch_language": "Ganti bahasa",
+    "switch_theme": "Ganti tema",
+    "main_nav": "Navigasi utama",
+    "mobile_nav": "Navigasi mobile"
+  },
+  "hero": {
+    "greeting": "Hai, saya",
+    "name": "MAULVI",
+    "tagline": "Saya membangun pengalaman digital yang imersif — menulis kode elegan di persimpangan performa dan desain.",
+    "tagline_highlight": "Full-Stack Developer & UI Engineer",
+    "typewriter": [
+      "Full-Stack Developer",
+      "UI/UX Engineer",
+      "Kontributor Open Source"
+    ],
+    "cta_projects": "Lihat Proyek",
+    "cta_github": "GitHub",
+    "cta_resume": "Unduh Resume",
+    "scroll_hint": "Gulir untuk menjelajahi",
+    "available": "Tersedia untuk kerja",
+    "location": "Malang, Indonesia"
+  },
+  "about": {
+    "section_label": "Tentang Saya",
+    "title": "Bersemangat membangun",
+    "title_highlight": "pengalaman luar biasa",
+    "bio_paragraph_1": "Saya adalah developer yang suka membangun aplikasi dengan menulis kode yang elegan dan memanfaatkan kekuatan teknologi modern. Daripada fokus pada desain pixel-perfect, saya lebih tertarik pada logika, arsitektur, dan persinggungan antara kode dan kecerdasan buatan.",
+    "bio_paragraph_2": "Saya merangkul era pengembangan berbasis AI. Saya sering bekerja dengan AI agent yang membantu saya membangun sistem kompleks — sebuah alur kerja yang sering disebut 'vibe coding'. Ini memungkinkan saya fokus pada pemecahan masalah tingkat tinggi, prototyping cepat, dan menghasilkan integrasi backend atau full-stack yang solid.",
+    "bio_paragraph_3": "Saat tidak sedang menulis kode, Anda akan menemukan saya bereksperimen dengan tools AI terbaru, menjelajahi large language model, atau berkontribusi pada proyek open-source yang mendorong batas kemampuan automated coding.",
+    "quick_facts_title": "Fakta Singkat",
+    "quick_facts": {
+      "location": "Malang, Indonesia",
+      "experience": "3+ Tahun Pengalaman",
+      "projects": "10+ Proyek Dibangun",
+      "coffee": "∞ Cangkir Kopi"
+    },
+    "skills_label": "Keahlian Utama",
+    "timeline_label": "Linimasa Pengalaman",
+    "education_label": "Pendidikan",
+    "fun_facts_label": "Fakta Menarik",
+    "fun_facts": [
+      "Saya pernah memperbaiki masalah produksi pada jam 3 pagi saat setengah tertidur — dan berhasil menyelesaikannya.",
+      "Saya membuat proyek sampingan sebagai sarana kreativitas, bukan sekadar untuk portofolio saya.",
+      "Mode gelap bukan sekadar preferensi — itu adalah gaya hidup."
+    ],
+    "timeline": [
+      {
+        "year": "2025",
+        "role": "Junior Developer",
+        "company": "Freelance",
+        "description": "Membangun aplikasi pesantren Islam."
+      },
+      {
+        "year": "2024",
+        "role": "Junior Developer",
+        "company": "UT School DAD (Magang)",
+        "description": "Mengembangkan aplikasi monitoring suku cadang kendaraan."
+      }
+    ]
+  },
+  "skills": {
+    "section_label": "Tech Stack",
+    "title": "Teknologi yang saya",
+    "title_highlight": "gunakan",
+    "subtitle": "Kumpulan tools pilihan yang saya gunakan untuk membangun produk yang cepat, skalabel, dan indah.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools & DevOps",
+      "mobile": "Mobile",
+      "database": "Database",
+      "cloud": "Cloud"
+    }
+  },
+  "projects": {
+    "section_label": "Proyek",
+    "title": "Hal yang telah",
+    "title_highlight": "Saya Bangun",
+    "subtitle": "Pilihan proyek yang menampilkan jangkauan saya — dari aplikasi SaaS produksi hingga eksperimen kreatif.",
+    "view_all": "Lihat Semua Proyek",
+    "view_project": "Lihat Proyek",
+    "view_code": "Lihat Kode",
+    "live_demo": "Demo Langsung",
+    "source_code": "Kode Sumber",
+    "filter_all": "Semua",
+    "filter_label": "Filter berdasarkan",
+    "no_results": "Tidak ada proyek yang ditemukan untuk filter yang dipilih.",
+    "loading": "Memuat proyek...",
+    "error": "Gagal memuat proyek. Silakan coba lagi.",
+    "pinned_label": "Disematkan",
+    "featured_label": "Unggulan",
+    "card": {
+      "stars": "Bintang",
+      "forks": "Fork",
+      "language": "Bahasa",
+      "updated": "Diperbarui"
+    },
+    "page": {
+      "title": "Semua Proyek",
+      "subtitle": "Setiap proyek yang telah saya bangun, open-source, atau rilis — dapat difilter berdasarkan bahasa dan topik.",
+      "search_placeholder": "Cari proyek...",
+      "sort_by": "Urutkan berdasarkan",
+      "sort_stars": "Bintang Terbanyak",
+      "sort_updated": "Baru Diperbarui",
+      "sort_name": "Nama (A–Z)"
+    }
+  },
+  "github": {
+    "section_label": "Aktivitas GitHub",
+    "title": "Kode, setiap",
+    "title_highlight": "hari tanpa terkecuali",
+    "subtitle": "Jejak open-source saya — repositori, kontribusi, dan bahasa pemrograman.",
+    "repos": "Repositori",
+    "stars": "Total Bintang",
+    "followers": "Pengikut",
+    "following": "Mengikuti",
+    "contributions": "Kontribusi",
+    "top_languages": "Bahasa Teratas",
+    "view_profile": "Lihat Profil GitHub",
+    "calendar_title": "Kalender Kontribusi",
+    "loading": "Mengambil data GitHub...",
+    "error": "Tidak dapat memuat statistik GitHub.",
+    "retry": "Coba Lagi"
+  },
+  "contact": {
+    "section_label": "Kontak",
+    "title": "Mari bekerja",
+    "title_highlight": "bersama",
+    "subtitle": "Punya proyek dalam pikiran, atau hanya ingin menyapa? Kotak masuk saya selalu terbuka.",
+    "form": {
+      "title": "Kirim Pesan",
+      "name_label": "Nama Lengkap",
+      "name_placeholder": "Budi Santoso",
+      "email_label": "Alamat Email",
+      "email_placeholder": "budi@contoh.com",
+      "subject_label": "Subjek",
+      "subject_placeholder": "Pertanyaan Proyek / Kolaborasi / Sekadar menyapa",
+      "message_label": "Pesan",
+      "message_placeholder": "Ceritakan tentang proyek, ide, atau sekadar menyapa...",
+      "submit": "Kirim Pesan",
+      "submitting": "Mengirim...",
+      "success_title": "Pesan Terkirim!",
+      "success_message": "Terima kasih telah menghubungi saya. Saya akan membalas dalam 24-48 jam.",
+      "error_title": "Terjadi kesalahan",
+      "error_message": "Pesan Anda tidak dapat dikirim. Silakan hubungi saya langsung melalui email.",
+      "required": "Kolom ini wajib diisi.",
+      "invalid_email": "Mohon masukkan alamat email yang valid.",
+      "min_length": "Pesan harus minimal 10 karakter.",
+      "max_length": "Pesan harus kurang dari 1000 karakter."
+    },
+    "socials_title": "Temukan saya online",
+    "email_cta": "Atau hubungi saya langsung di",
+    "availability": "Terbuka untuk peluang",
+    "availability_detail": "Saat ini tersedia untuk proyek freelance dan posisi penuh waktu."
+  },
+  "footer": {
+    "tagline": "Dibangun dengan semangat, ditenagai kafein.",
+    "made_with": "Dibuat dengan",
+    "and": "dan",
+    "next_js": "Next.js",
+    "rights": "Semua hak dilindungi.",
+    "back_to_top": "Kembali ke atas",
+    "nav_label": "Navigasi footer",
+    "social_label": "Tautan media sosial"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan.",
+    "retry": "Coba lagi",
+    "close": "Tutup",
+    "open": "Buka",
+    "toggle": "Alihkan",
+    "copy": "Salin",
+    "copied": "Tersalin!",
+    "share": "Bagikan",
+    "download": "Unduh",
+    "read_more": "Baca selengkapnya",
+    "see_less": "Tampilkan lebih sedikit",
+    "view_all": "Lihat semua",
+    "show_more": "Tampilkan lebih",
+    "back": "Kembali",
+    "next": "Berikutnya",
+    "previous": "Sebelumnya",
+    "yes": "Ya",
+    "no": "Tidak",
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "save": "Simpan",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "language": "Bahasa",
+    "theme": "Tema",
+    "dark": "Gelap",
+    "light": "Terang",
+    "system": "Sistem",
+    "skip_nav": "Lewati ke konten utama"
+  },
+  "meta": {
+    "default_title": "Portofolio — Full-Stack Developer",
+    "default_description": "Portofolio pribadi seorang full-stack developer yang berspesialisasi dalam Next.js, TypeScript, dan pengalaman web yang imersif.",
+    "og_title": "Portofolio — Full-Stack Developer",
+    "og_description": "Jelajahi proyek, keahlian, dan pengalaman saya dalam pengembangan web full-stack.",
+    "keywords": "portofolio, full-stack developer, next.js, typescript, react, pengembangan web, ui engineer",
+    "author": "Maulvi",
+    "pages": {
+      "home": {
+        "title": "Beranda — Portofolio",
+        "description": "Selamat datang di portofolio saya. Saya membangun pengalaman web yang cepat, indah, dan aksesibel."
+      },
+      "projects": {
+        "title": "Proyek — Portofolio",
+        "description": "Jelajahi semua proyek open-source, proyek sampingan, dan pekerjaan profesional saya."
+      },
+      "about": {
+        "title": "Tentang — Portofolio",
+        "description": "Pelajari latar belakang, keahlian, pengalaman, dan apa yang mendorong saya sebagai developer."
+      },
+      "contact": {
+        "title": "Kontak — Portofolio",
+        "description": "Hubungi saya untuk kolaborasi, peluang kerja, atau sekadar menyapa."
+      }
+    }
+  },
+  "aria": {
+    "main_nav": "Navigasi utama",
+    "mobile_nav": "Navigasi mobile",
+    "hero_canvas": "Adegan latar belakang animasi 3D",
+    "project_card": "Kartu proyek untuk",
+    "github_stat": "Statistik GitHub",
+    "skill_badge": "Lencana keahlian",
+    "language_switcher": "Pengalih bahasa",
+    "theme_toggle": "Alihkan tema warna",
+    "scroll_to_top": "Gulir ke atas halaman",
+    "social_link": "Kunjungi profil saya di",
+    "contribution_calendar": "Kalender kontribusi GitHub",
+    "close_modal": "Tutup modal",
+    "next_slide": "Slide berikutnya",
+    "prev_slide": "Slide sebelumnya"
+  }
+}
