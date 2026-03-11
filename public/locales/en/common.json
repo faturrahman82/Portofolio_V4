@@ -139,9 +139,9 @@
     "form": {
       "title": "Send a Message",
       "name_label": "Full Name",
-      "name_placeholder": "John Doe",
+      "name_placeholder": "Your Name",
       "email_label": "Email Address",
-      "email_placeholder": "john@example.com",
+      "email_placeholder": "[EMAIL_ADDRESS]",
       "subject_label": "Subject",
       "subject_placeholder": "Project Inquiry / Collaboration / Just saying hi",
       "message_label": "Message",

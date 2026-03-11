@@ -188,7 +188,7 @@ function StatCard({
       variants={scaleInVariants}
       custom={index}
       className={cn(
-        'group relative overflow-hidden rounded-2xl border p-5',
+        'group relative overflow-hidden rounded-2xl border p-4 sm:p-5',
         'glass transition-all duration-300',
         'hover:-translate-y-1 hover:shadow-glass-hover',
         colors.border,
@@ -210,13 +210,13 @@ function StatCard({
       {/* Icon */}
       <div
         className={cn(
-          'mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl',
+          'mb-3 sm:mb-4 inline-flex h-8 w-8 sm:h-10 sm:w-10 items-center justify-center rounded-xl',
           colors.bg,
           'border',
           colors.border
         )}
       >
-        <Icon className={cn('h-4.5 w-4.5', colors.icon)} />
+        <Icon className={cn('h-4 w-4 sm:h-5 sm:w-5', colors.icon)} />
       </div>
 
       {/* Value */}
@@ -226,12 +226,12 @@ function StatCard({
           suffix={suffix}
           trigger={isInView}
           duration={1400 + index * 150}
-          className={cn('font-syne text-3xl font-black leading-none tracking-tight', colors.value)}
+          className={cn('font-syne text-2xl sm:text-3xl font-black leading-none tracking-tight', colors.value)}
         />
       </div>
 
       {/* Label */}
-      <p className="font-jetbrains text-[11px] font-medium uppercase tracking-widest text-slate-500">
+      <p className="font-jetbrains text-[10px] sm:text-[11px] font-medium uppercase tracking-widest text-slate-500">
         {label}
       </p>
 
@@ -664,7 +664,7 @@ export function GithubStats({ locale: _locale }: GithubStatsProps) {
                   variants={containerVariants}
                   initial="hidden"
                   animate={isInView ? 'visible' : 'hidden'}
-                  className="grid grid-cols-2 gap-4 lg:grid-cols-4"
+                  className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4"
                   role="list"
                   aria-label="GitHub summary statistics"
                 >

@@ -470,7 +470,7 @@ export function safeJsonParse<T = unknown>(str: string): T | null {
 
 /**
  * Extracts initials from a full name string.
- * @example getInitials('John Doe') → 'JD'
+ * @example getInitials('your name') → 'JD'
  */
 export function getInitials(name: string, maxChars = 2): string {
   return name

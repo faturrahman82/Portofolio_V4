@@ -373,10 +373,18 @@ export function HeroSection({ locale }: HeroSectionProps) {
     return unsubscribe
   }, [scrollY])
 
-  // Reduced motion preference
+  // Layout and motion preferences
   const [reducedMotion, setReducedMotion] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
+  
   useEffect(() => {
     setReducedMotion(prefersReducedMotion())
+    
+    // Check if mobile for 3D placement
+    const handleResize = () => setIsMobile(window.innerWidth < 1024)
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
   }, [])
 
   // Typewriter
@@ -494,11 +502,11 @@ export function HeroSection({ locale }: HeroSectionProps) {
             depth={10}
           />
 
-          {/* Floating geometry — right side */}
+          {/* Floating geometry — responsive position */}
           <FloatingGeometry
             variant="torusKnot"
-            position={[2.8, 0.2, -0.5]}
-            scale={0.9}
+            position={isMobile ? [0, -2, -3] : [2.8, 0.2, -0.5]}
+            scale={isMobile ? 0.5 : 0.9}
             wireframe={false}
             withGhost
             color="#00f5ff"
