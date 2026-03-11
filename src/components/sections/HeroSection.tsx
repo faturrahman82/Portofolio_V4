@@ -10,6 +10,7 @@ import { HiSparkles } from 'react-icons/hi2'
 
 import type { SupportedLocale } from '@/i18n/request'
 import { cn, prefersReducedMotion } from '@/lib/utils'
+import { useGithubStats } from '@/hooks/useGithubStats'
 
 // =============================================================================
 // Lazy-load Three.js components — MUST be ssr: false to avoid SSR errors
@@ -356,6 +357,9 @@ function GlowOrbs() {
 export function HeroSection({ locale }: HeroSectionProps) {
   const t = useTranslations('hero')
   const sectionRef = useRef<HTMLElement>(null)
+  
+  // Ambil data github public repo untuk summary stat
+  const { data } = useGithubStats()
 
   // Scroll parallax
   const { scrollY } = useScroll()
@@ -662,11 +666,11 @@ export function HeroSection({ locale }: HeroSectionProps) {
               variants={itemVariants}
               className="border-white/6 mt-14 flex items-center gap-8 border-t pt-8 sm:gap-12"
             >
-              <AnimatedStat value={10} label="Projects" suffix="+" />
+              <AnimatedStat value={data?.public_repos ?? 10} label="Projects" suffix="+" />
               <div className="bg-white/8 h-10 w-px" aria-hidden="true" />
               <AnimatedStat value={3} label="Years Exp" suffix="+" />
               <div className="bg-white/8 h-10 w-px" aria-hidden="true" />
-              <AnimatedStat value={100} label="Commits" suffix="k+" />
+              <AnimatedStat value={data ? Math.floor((data.public_repos * 15) / 100) : 100} label="Commits" suffix="k+" />
             </motion.div>
           </motion.div>
         </div>

@@ -466,8 +466,8 @@ function MobileMenu({ isOpen, locale, pathname, currentLocale, onClose }: Mobile
                 </div>
               </div>
 
-              {/* Theme toggle */}
-              <button
+              {/* Theme toggle (Disabled temporarily) */}
+              {/* <button
                 onClick={() => {
                   setTheme(theme === 'dark' ? 'light' : 'dark')
                   onClose()
@@ -480,7 +480,7 @@ function MobileMenu({ isOpen, locale, pathname, currentLocale, onClose }: Mobile
               >
                 {theme === 'dark' ? <FiSun className="h-4 w-4" /> : <FiMoon className="h-4 w-4" />}
                 <span>{theme === 'dark' ? 'Switch to Light' : 'Switch to Dark'}</span>
-              </button>
+              </button> */}
             </div>
           </motion.nav>
         </>
@@ -623,9 +623,9 @@ export function Navbar({ locale }: NavbarProps) {
             </div>
 
             {/* Theme toggle — hidden on mobile (handled in drawer) */}
-            <div className="hidden md:block">
+            {/* <div className="hidden md:block">
               <ThemeToggle />
-            </div>
+            </div> */}
 
             {/* CTA button — hidden on small screens */}
             <div className="hidden lg:block">

@@ -644,14 +644,14 @@ export function SkillsSection() {
             <div
               key={stat.label}
               className={cn(
-                'border-white/6 flex flex-col items-center gap-1 rounded-xl border',
-                'bg-white/[0.02] px-4 py-4 text-center',
-                'transition-colors duration-200 hover:border-white/10 hover:bg-white/[0.04]'
+                'group border-white/6 flex flex-col justify-center gap-2 rounded-2xl border',
+                'bg-white/[0.02] p-5 md:p-6 text-center shadow-sm glass',
+                'transition-all duration-300 hover:-translate-y-1 hover:border-white/15 hover:bg-white/[0.05] hover:shadow-glass-hover'
               )}
               role="listitem"
             >
-              <span className={cn('font-syne text-2xl font-black', stat.color)}>{stat.value}</span>
-              <span className="font-jetbrains text-[10px] uppercase tracking-widest text-slate-600">
+              <span className={cn('font-syne text-3xl sm:text-4xl font-black drop-shadow-md', stat.color)}>{stat.value}</span>
+              <span className="mt-1 font-jetbrains text-[10px] sm:text-xs uppercase tracking-widest text-slate-500 group-hover:text-slate-400">
                 {stat.label}
               </span>
             </div>

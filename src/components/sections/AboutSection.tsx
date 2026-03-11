@@ -17,6 +17,7 @@ import { HiOutlineSparkles } from 'react-icons/hi2'
 import { SiTypescript, SiReact, SiNextdotjs, SiNodedotjs, SiMysql } from 'react-icons/si'
 
 import { cn } from '@/lib/utils'
+import { useGithubStats } from '@/hooks/useGithubStats'
 
 // =============================================================================
 // Types
@@ -417,6 +418,7 @@ export function AboutSection() {
   const t = useTranslations('about')
   const ref = useRef<HTMLElement>(null)
   const isInView = useInView(ref, { once: true, margin: '-80px' })
+  const { data } = useGithubStats()
 
   // ─── Build timeline from translations ───────────────────────────────────
   const timeline: TimelineEntry[] = t.raw('timeline') as TimelineEntry[]
@@ -439,7 +441,9 @@ export function AboutSection() {
     {
       icon: FiCode,
       label: 'Projects',
-      value: t('quick_facts.projects'),
+      value: data?.public_repos 
+        ? `${data.public_repos}+ ${t('quick_facts.projects').split(' ').slice(1).join(' ')}` 
+        : t('quick_facts.projects'),
       color: 'emerald',
     },
     {
