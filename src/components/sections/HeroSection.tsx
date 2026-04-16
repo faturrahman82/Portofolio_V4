@@ -493,16 +493,16 @@ export function HeroSection({ locale }: HeroSectionProps) {
           <ambientLight intensity={0.15} />
           <hemisphereLight args={['#00f5ff', '#7c3aed', 0.3]} />
 
-          {/* 3 000+ particle cloud */}
+          {/* 3 000+ particle cloud (Dioptimasi untuk performa HP) */}
           <ParticleField
-            count={3200}
+            count={isMobile ? 1500 : 3200}
             spread={22}
             size={0.014}
             color="#00f5ff"
             colorSecondary="#7c3aed"
             speed={0.012}
             scrollProgress={scrollProgress}
-            mouseParallax
+            mouseParallax={!isMobile}
             depth={10}
           />
 

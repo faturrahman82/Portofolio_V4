@@ -7,6 +7,7 @@ import type { ReactNode } from 'react'
 
 import { Footer } from '@/components/layout/Footer'
 import { Navbar } from '@/components/layout/Navbar'
+import { ScrollReset } from '@/components/layout/ScrollReset'
 import { locales, type SupportedLocale } from '@/i18n/request'
 import '@/styles/globals.css'
 
@@ -286,6 +287,9 @@ export default function RootLayout({ children, params: { locale } }: RootLayoutP
       >
         {/* next-intl provider — makes translations available to all client components */}
         <NextIntlClientProvider locale={typedLocale} messages={messages}>
+          {/* ScrollReset Helper untuk memastikan view di pojok tertinggi setiap re-render utuh */}
+          <ScrollReset />
+          
           {/* Skip navigation (accessibility) */}
           <a
             href="#main-content"
